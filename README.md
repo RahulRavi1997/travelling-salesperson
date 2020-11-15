@@ -1,9 +1,6 @@
 # Travelling Salesperson
 R scripts to solve* the Travelling salesman problem.
-
-
-	A Travelling Salesman problem asks which is the shortest possible route that visits each city and returns to the origin city from a given list of cities. It is an NP-Hard problem, which means it is computationally difficult. It is a problem easy to state, difficult to solve. TSP finds its application in vehicle routing, PCB/IC Design etc. 
-	
+A Travelling Salesman problem asks which is the shortest possible route that visits each city and returns to the origin city from a given list of cities. It is an NP-Hard problem, which means it is computationally difficult. It is a problem easy to state, difficult to solve. TSP finds its application in vehicle routing, PCB/IC Design etc. 
 	
 Christofides Algorithm:
 	Christofides Algorithm is an approximation algorithm that guarantees that its solution will be within a factor of 3/2 of the optimal solution length. Hence, it is also known as the 3/2 approximation / 1.5 approximation algorithm. It was discovered in 1976 by Nicos Christofides and Anatoliy I. Serdyukov. Firstly, we create a minimum spanning tree graph by using one of the many algorithms, such as Prim’s algorithm, Kruskal’s algorithm, etc. Then, we find all the odd-degree vertices(vertices with odd number of edges connected to them) and match these vertices, by the application of minimum weight perfect matching techniques. Then we combine these two graphs to form an Eulerian cycle (A cycle that visits every given node exactly once). To this day, this algorithm has provided the best approximation ratio that has been proven for the traveling salesman problem on general metric spaces. 
