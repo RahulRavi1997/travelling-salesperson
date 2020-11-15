@@ -18,10 +18,10 @@ Christofides Algorithm:
 9)	Finally, we calculate the total distance covered by the tour and the time taken.
 10) 	Plot the solution path and save it in the output file.
  
-  ![Performance_Christofides_Time](https://github.com/RahulRavi1997/travelling-salesperson/blob/main/images/Performance_Christofides_Time.png)
+  ![Performance_Christofides_Time](https://github.com/RahulRavi1997/travelling-salesperson/blob/main/images/Performance_Christophides_Time.png)
 It is seen that the time computation power of the Christofides algorithm is quite faster and linear.
 Whereas on the negative side, the algorithm differs widely with respect to the circuit distance wherein it ranges from 13000 to 30000 which clearly proves that the algorithm only proves the lower bound remains suboptimal.
-  ![Performance_Christofides_Distance](https://github.com/RahulRavi1997/travelling-salesperson/blob/main/images/Performance_Christofides_Distance.png)
+  ![Performance_Christofides_Distance](https://github.com/RahulRavi1997/travelling-salesperson/blob/main/images/Performance_Christphides_Distance.png)
 The choice of algorithm clearly depends on the requirement. At the same time, the computation power of the system used to execute the code also plays a vital role, for example, when I executed the code in a computer with lower processing capabilities, it took me way longer than when I executed it on a system with higher processing capabilities.
 
 
@@ -48,13 +48,13 @@ Performance and optimality are very high for lower number of nodes whereas this 
  
 It is seen that the time increment for the cheapest insertion algorithm is quite linear as the number of nodes increases, whereas, due to the complexity of iterations; the algorithm needs higher run time to complete the computation.
 
- ![Performance_Cheapest_Distance](https://github.com/RahulRavi1997/travelling-salesperson/blob/main/images/Performace_Cheapest_Distance.png)
+ ![Performance_Cheapest_Distance](https://github.com/RahulRavi1997/travelling-salesperson/blob/main/images/Performance_Cheapest_Distance.png)
 
 On the other hand, the distance taken for the circuit to complete remains within a range in between 11000 – 12500. 
 Hence it can be clearly inferred that this algorithm has better efficiency in terms of distance but on the other hand has lesser efficiency in terms of computation time.
  
-   ![Performance_Comparison_Distance](https://github.com/RahulRavi1997/travelling-salesperson/blob/main/images/Performance_Christofides_Distance.png)
-   ![Performance_Comparison_Distance](https://github.com/RahulRavi1997/travelling-salesperson/blob/main/images/Performance_Christofides_Distance.png)
+   ![Performance_Comparison_Distance](https://github.com/RahulRavi1997/travelling-salesperson/blob/main/images/Performance_Comparison_Distance.png)
+   ![Performance_Comparison_Distance](https://github.com/RahulRavi1997/travelling-salesperson/blob/main/images/Performance_Comparison_Distance.png)
 
 
 A few input and output testcases are also commited in this repository under the testcases folder, along with the circuit images.
