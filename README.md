@@ -59,6 +59,10 @@ Hence it can be clearly inferred that this algorithm has better efficiency in te
 A few input and output testcases are also commited in this repository under the testcases folder, along with the circuit images.
 The data provided are subject to the specifications of the computer in which this script is run.
 
+Thank you for reading till the end. Here are some cool paths for you!
+   ![Christophides_Path_Slide](https://github.com/RahulRavi1997/travelling-salesperson/blob/main/images/Christophides_Algorithm_Path.jpg)
+   ![Cheapest_Path_Slide](https://github.com/RahulRavi1997/travelling-salesperson/blob/main/images/Cheapest_Insertion_Path.jpg)
+
 *These do not solve the problem, but provide valid upper bounds and approximation. But the word "solve" does look good doesn't it. 😀️
 *All the distances are calculated with Euclidean path 
 ** Time taken may vary with the speed of your processor.
